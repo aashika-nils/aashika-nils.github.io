@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+  <meta charset="UTF-8">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>A Safe Space for Every Writer</title>
+
+  <style>
+
+    * { box-sizing: border-box; }
+
+    body {
+
+      margin: 0;
+
+      font-family: Georgia, serif;
+
+      background: #faf8f3;
+
+      color: #493923;
+
+    }
+
+    header {
+
+      padding: 22px;
+
+      background: #fffaf1;
+
+      text-align: center;
+
+      font-size: 22px;
+
+      color: #926b24;
+
+    }
+
+    .hero {
+
+      min-height: 80vh;
+
+      background:
+
+        linear-gradient(rgba(25,16,9,.58),
+
+                        rgba(25,16,9,.65)),
+
+        url("https://images.unsplash.com/photo-1507842217343-583bb7270b66?w=1600")
+
+        center/cover;
+
+      color: white;
+
+      display: flex;
+
+      align-items: center;
+
+      padding: 55px 8%;
+
+    }
+
+    .hero-content { max-width: 650px; }
+
+    h1 {
+
+      font-size: clamp(42px, 7vw, 76px);
+
+      font-weight: normal;
+
+      line-height: 1.15;
+
+    }
+
+    .hero p {
+
+      font: 20px/1.7 Arial, sans-serif;
+
+    }
+
+    .buttons {
+
+      display: flex;
+
+      flex-wrap: wrap;
+
+      gap: 15px;
+
+      margin-top: 30px;
+
+    }
+
+    .button {
+
+      display: inline-block;
+
+      padding: 18px 26px;
+
+      background: #e8a71b;
+
+      color: #fff;
+
+      text-decoration: none;
+
+      font: bold 16px Arial, sans-serif;
+
+      border: 2px solid #e8a71b;
+
+    }
+
+    .button.outline {
+
+      background: transparent;
+
+    }
+
+    section {
+
+      padding: 65px 8%;
+
+      text-align: center;
+
+    }
+
+    h2 {
+
+      font-size: 36px;
+
+      font-weight: normal;
+
+      color: #94701f;
+
+    }
+
+    section p {
+
+      font: 17px/1.8 Arial, sans-serif;
+
+      max-width: 650px;
+
+      margin: auto;
+
+    }
+
+    .categories {
+
+      display: grid;
+
+      grid-template-columns:
+
+        repeat(auto-fit, minmax(160px, 1fr));
+
+      gap: 16px;
+
+      margin-top: 35px;
+
+    }
+
+    .category {
+
+      background: white;
+
+      padding: 30px 15px;
+
+      border: 1px solid #e7dcc7;
+
+      font-size: 20px;
+
+    }
+
+    footer {
+
+      padding: 30px;
+
+      text-align: center;
+
+      background: #493923;
+
+      color: white;
+
+    }
+
+  </style>
+
+</head>
+
+<body>
+
+  <header>THE WRITERS' SPACE</header>
+
+  <div class="hero">
+
+    <div class="hero-content">
+
+      <h1>A safe space for every writer</h1>
+
+      <p>
+
+        Share your voice without fear. Submit pieces
+
+        anonymously, read heartfelt works from fellow
+
+        creators, and grow your craft in an open,
+
+        welcoming community.
+
+      </p>
+
+      <div class="buttons">
+
+        <a class="button" href="#write">
+
+          Submit your work
+
+        </a>
+
+        <a class="button outline" href="#read">
+
+          Read stories
+
+        </a>
+
+      </div>
+
+    </div>
+
+  </div>
+
+  <section>
+
+    <h2>What you can do here</h2>
+
+    <p>
+
+      Every story deserves to be heard.
+
+      Share your thoughts, discover new perspectives,
+
+      and find comfort in the words of others.
+
+      No names. No judgment. Just writing.
+
+    </p>
+
+  </section>
+
+  <section id="read">
+
+    <h2>Explore the Library</h2>
+
+    <p>Discover words shared by anonymous writers.</p>
+
+    <div class="categories">
+
+      <div class="category">Poetry</div>
+
+      <div class="category">Short Stories</div>
+
+      <div class="category">Letters</div>
+
+      <div class="category">Thoughts</div>
+
+    </div>
+
+    <p style="margin-top:30px">
+
+      The writing library is coming soon.
+
+    </p>
+
+  </section>
+
+  <section id="write">
+
+    <h2>Leave Your Words Here</h2>
+
+    <p>
+
+      A place for the things you want to say.
+
+      Anonymous submissions are coming soon.
+
+    </p>
+
+  </section>
+
+  <footer>
+
+    Made for writers, by writers.
+
+  </footer>
+
+</body>
+
+</html>
